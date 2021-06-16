@@ -21,3 +21,10 @@ document.getElementById("papildymas1").addEventListener ("click", function() {
 // 2. uzduotis
 //  Pasinaudodami ciklu, sukurkite funkciją, kuri traukia kvadratinę šaknį iš skaičiaus.
 
+document.getElementById("saknis").addEventListener ("click", function () {
+
+        let duotassk = document.getElementById("skaicius").value;
+        let istrauktasaknis = Math.sqrt(duotassk);
+        document.getElementById("atsakymas").value = istrauktasaknis;
+
+});
