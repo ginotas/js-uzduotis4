@@ -28,3 +28,20 @@ document.getElementById("saknis").addEventListener ("click", function () {
         document.getElementById("atsakymas").value = istrauktasaknis;
 
 });
+
+
+// 3. uzduotis
+// Sukurkite funkciją, kuri mygtuko paspaudimu, 
+// sukuria div elementą su klase "elementas-{index}". {index} = elemento numeris 
+
+
+document.getElementById("sukurti").addEventListener ("click", function () {
+    
+    let divas = document.createElement("div");
+    divas.classList.add("div-dydis");
+    divas.innerText = 1;
+
+    // document.querySelector("container").append(divas);
+    document.body.appendChild(divas);
+
+});
