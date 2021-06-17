@@ -37,11 +37,12 @@ document.getElementById("saknis").addEventListener ("click", function () {
 
 document.getElementById("sukurti").addEventListener ("click", function () {
     
+
     let divas = document.createElement("div");
     divas.classList.add("div-dydis");
-    divas.innerText = 1;
+    divas.innerText = "nesugalvojau index kaip padaryti";
 
-    // document.querySelector("container").append(divas);
+    //document.querySelector("container").append(divas);
     document.body.appendChild(divas);
 
 });
